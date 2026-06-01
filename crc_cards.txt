@@ -1,0 +1,14 @@
+CLASS: Event
+RESPONSIBILITIES                    | COLLABORATORS
+------------------------------------|-------------
+Knows the event name and date       |
+
+CLASS: Calendar
+RESPONSIBILITIES                    | COLLABORATORS
+------------------------------------|-------------
+Tracks the events in the calendar   | Event
+Can add an event                    | Event
+Can finds events by date            | Event
+Can check for conflicts             | Event
+Can find the next upcoming event    | Event
+Can display the full calendar       | Event
